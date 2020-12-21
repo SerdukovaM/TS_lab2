@@ -30,7 +30,7 @@ void table(std::string type, int N[19][10]) {
     std::cout << "| ";
     std::cout.width(6);
     std::cout << (i + 1) * 0.005 << "| ";
-    for (j = 0; j < 14; j++) { 
+    for (j = 0; j < 10; j++) { 
       min = 9;
       for (int t = 0; t < N[i][j]; t++) {
         double x = ((double)rand() / RAND_MAX) * 3 + 7;
